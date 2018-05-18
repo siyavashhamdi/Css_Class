@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  width: 500px;
+  margin: auto;
+  padding: 50px;
+}
+
+.first-div {
+  background-color: red;
+  box-sizing: border-box;
+}
+
+.second-div {
+  background-color: green;
+  box-sizing: content-box;
+
+  outline: dashed 10px pink;
+  outline-offset: 10px;
+  border: solid 10px yellow;;
+  text-shadow: 2px 0px gray;
+}
