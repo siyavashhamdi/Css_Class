@@ -110,7 +110,8 @@ footer p {
   font-weight: bold;
 }
 
-@media (max-width:641px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (max-width:641px)  {
   section.main-section {
     display: block;
     width: 100%;
@@ -130,7 +131,8 @@ footer p {
   }
 }
 
-@media (max-width:320px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+/* smartphones, iPhone, portrait 480x320 phones */
+@media (max-width:320px)  {
   aside {
     display: none;
   }
