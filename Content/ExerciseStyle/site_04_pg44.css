@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.holder {
+  position: relative;
+  height: 400px;
+  width: 600px;
+  margin: 10px auto;
+  background-color: #dfdfdf;
+  border: solid 4px lightgray;
+}
+
+.holder div {
+  position: absolute;
+  height: 150px;
+  width: 200px;
+  border: solid 4px #fff;
+}
+
+.holder div.div-green {
+  background-color: #2ecc71;
+  top: 150px;
+  left: 150px;
+  z-index: 3;
+}
+
+.holder div.div-blue {
+  background-color: #3498db;
+  top: 100px;
+  left: 100px;
+  z-index: 2;
+}
+
+.holder div.div-orange {
+  background-color: #e67e22;
+  top: 50px;
+  left: 50px;
+  z-index: 1;
+}
+
+.holder div.div-purple {
+  background-color: #8e44ad;
+  top: 75px;
+  left: 280px;
+  z-index: 4;
+}

@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.holder {
+  border: solid 1px red;
+  overflow: auto;
+}
+
+img {
+  width: 100px;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.clear-fix {
+  clear: both;
+}

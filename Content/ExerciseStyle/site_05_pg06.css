@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #c6c6c6;
+}
+
+.holder {
+  height: 400px;
+  width: 600px;
+  margin: 10px auto;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: justify;
+}
+
+.holder p {
+}
+
+.holder img {
+  width: 200px;
+  border: dashed 1px gray;
+  float: right;
+  margin: 0 0 10px 10px;
+}

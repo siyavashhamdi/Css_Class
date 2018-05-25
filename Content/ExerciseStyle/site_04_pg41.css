@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+  box-sizing: border-box;
+}
+
+.holder {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  margin: 10px;
+  opacity: 0.5;
+  background-color: green;
+  border: solid 1px black;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+p {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+
+p.p-top-left {
+  top: 0;
+  left: 0;
+}
+
+p.p-top-left {
+  top: 0;
+  left: 0;
+}
+
+p.p-top-right {
+  top: 0;
+  right: 0;
+}
+
+p.p-bottom-right {
+  bottom: 0;
+  right: 0;
+}
+
+p.p-bottom-left {
+  bottom: 0;
+  left: 0;
+}
+
+p.p-centered {
+  top: 50%;
+  left: calc(50% - 30px);
+}

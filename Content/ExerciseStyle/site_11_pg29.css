@@ -1,0 +1,43 @@
+html, body {
+  direction: ltr;
+  background-color: #efefef;
+}
+
+img {
+  max-width: 350px;
+  width: auto;
+}
+
+.image-holder {
+  position: relative;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.image-holder:hover .description {
+    bottom: 0;
+    transition: bottom 1s;
+}
+
+.description {
+  position: absolute;
+  bottom: -100px;
+  margin:auto;
+  background-color: #000;
+  color:#fff;
+  opacity: .6;
+  width: calc(100% - 4 * 13px);
+  text-align: center;
+  height: 100px;
+  padding-top: 40px;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: gray;
+  height: 70px;
+  text-align: center;
+  font-size: 20pt;
+  padding-top: 15px;
+  color: white;
+}

@@ -1,0 +1,92 @@
+html, body {
+  direction: ltr;
+  background-color: #efefef;
+  margin: 10px;
+}
+
+.header {
+  background-color: #ffffff;
+  text-align: center;
+  height: 150px;
+  padding-top: 10px;
+  line-height: 50px;
+  margin: inherit;
+  margin: inherit !important;
+}
+
+nav {
+  background-color: #2e2e2e;
+  color:#ffffff;
+  height: 40px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 5px;
+  float: left;
+  padding-right: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background-color: gray;
+}
+
+nav ul li:last-child {
+  display: inline;
+  float: right;
+}
+
+section.detail-section {
+  background-color: #ffffff;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+section.detail-section h4,
+section.detail-section h6,
+section.detail-section figure,
+section.detail-section p {
+  margin-bottom: 10px;
+}
+
+section.detail-section img {
+  height: 100px;
+  width:100%;
+  padding-right: 10px;
+}
+
+.sidebar div {
+  padding: 10px;
+  background-color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.sidebar img {
+  width: 97%;
+  height: 50px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer {
+  clear:both;
+  background-color: #d9d9d9;
+  height: 70px;
+  text-align: center;
+  padding-top: 28px;
+}
+
+.footer p {
+  font-weight: bold;
+}

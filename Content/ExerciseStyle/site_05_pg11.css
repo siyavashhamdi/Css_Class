@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+}
+
+header {
+  height: 100px;
+  color: white;
+  background-color: #767676;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+aside {
+  float: left;
+  margin-right: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  color: white;
+  background-color: #34aee0;
+  padding: 10px;
+  width: 200px;
+  margin: 10px 0;
+}
+
+.section-holder {
+  overflow: auto;
+  margin: 10px;
+}
+
+.section-main {
+  padding: 10px;
+}
+
+footer {
+  height: 80px;
+  color: white;
+  background-color: #767676;
+
+  padding-top: 30px;
+  padding-left: 10px;
+}

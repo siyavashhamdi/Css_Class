@@ -1,0 +1,42 @@
+* {
+  font-family: sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th {
+  background-color: #d61944;
+}
+
+table td, table th {
+  border: solid 1px gray;
+  text-align: left;
+  vertical-align: middle;
+}
+
+table tr {
+  height: 30px;
+}
+
+table tr:nth-child(odd) {
+  background-color: #f0f0f0;
+}
+
+table tr:hover {
+  background-color: lightgray;
+}
+
+.table-header-company {
+  width: 50%;
+}
+
+.table-header-contact {
+  width: 30%;
+}
+
+.table-header-country {
+  width: 20%;
+}

@@ -1,0 +1,22 @@
+* {
+  font-family: Arial;
+}
+
+ol {
+  background-color: pink;
+  padding: 30px;
+}
+
+ol li {
+  background-color: #ffe;
+}
+
+ul {
+  background-color: lightblue;
+  padding: 30px;
+}
+
+ul li {
+  background-color: #ffe;
+  margin: 5px;
+}

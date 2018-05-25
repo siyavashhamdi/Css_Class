@@ -1,0 +1,12 @@
+* {
+  font-family: arial;
+  box-sizing: border-box;
+}
+
+p {
+  display: inline-block;
+  /*width: 150px;*/
+  width: 150px;
+  margin-right: 50px;
+  text-align: justify;
+}
