@@ -4,22 +4,31 @@
 }
 
 .holder {
-  border: solid 1px red;
+  border: solid 1px gray;
+  width: 500px;
+  height: 300px;
+  margin: auto;
+  margin-top: 20px;
+  text-align: justify;
+  padding: 10px;
   overflow: auto;
+  position: static;
 }
 
-img {
-  width: 100px;
+p::first-letter {
+  color: blue;
+  font-size: 30pt;
 }
 
-.float-right {
-  float: right;
+p::selection {
+  color:yellow;
+  background-color: purple;
 }
 
-.float-left {
-  float: left;
+p::first-line {
+  color: red;
 }
 
-.clear-fix {
-  clear: both;
+p {
+  color: green;
 }

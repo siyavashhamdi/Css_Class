@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+  float: left;
+  font-weight: bold;
+  color: red;
+  border: solid 1px lightgray;
+}
+
+p {
+  display: none;
+  float:left;
+  color: white;
+  clear:both;
+  background-color: black;
+}
+
+div:hover + p {
+  display: block;
+}

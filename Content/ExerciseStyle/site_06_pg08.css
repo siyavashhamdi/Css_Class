@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.holder {
+  width: 600px;
+  height: 400px;
+  margin: 10px auto;
+  border: solid 2px gray;
+  text-align: center;
+  background-image: url("../Image/skater.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: 600px 400px;
+}
+
+.holder p {
+  font-weight: bold;
+  margin: 25% auto;
+  width: 80%;
+  height: 100px;
+  border: solid 1px black;
+  text-align: center;
+  padding-top: 40px;
+  background-color: white;
+  opacity: 0.6;
+}
